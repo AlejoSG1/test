@@ -25,7 +25,7 @@ def require_auth():
 def get_connection():
     return psycopg2.connect(
         dbname="cruddb",
-        user="alejo",
+        user="asalgado",
         password="1234",
         host="127.0.0.1",
         port="5432"
